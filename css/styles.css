@@ -5,6 +5,8 @@
     overflow: auto;
 }
 
+/* adding fonts */
+
 @font-face {
     font-family: 'DINAlternateBold';
     src: url('../css/fonts/DINAlternateBold.otf') format('opentype')
@@ -23,18 +25,19 @@
 @font-face {
     font-family: 'Louis George Cafe Italic';
     font-style: italic;
-    src: format('../css/fonts/louis-george-cafe-italic.ttf') format('truetype')
+    src: url('../css/fonts/louis-george-cafe-italic.ttf') format('truetype')
 }
 
 @font-face {
     font-family: 'Louis George Cafe';
     font-style: normal;
-    src: format('../css/fonts/LouisGeorgeCafe.ttf') format('truetype')
+    src: url('../css/fonts/LouisGeorgeCafe.ttf') format('truetype')
 }
 
+
 h1, h3 {
-    font-family: 'DINAlternateBold';
-    font-weight: normal;
+    font-family: 'DINAlternateBold', 'Roboto', 'Louis George Cafe', sans-serif;
+    font-weight: bold;
     font-style: normal;
 }
 
@@ -192,6 +195,7 @@ a:visited {
 }
 
 .casestudy__content figcaption {
+    font-family: 'Louis George Italic', 'Avenir', 'Roboto', sans-serif;
     padding: 1rem 0;
     text-decoration: underline;
     font-style: italic;
@@ -203,7 +207,7 @@ a:visited {
 }
 
 .back {
-    font-family: 'DINAlternateBold';
+    font-family: 'DINAlternateBold', 'Roboto', 'Louis George Cafe', sans-serif;
     text-align: center;
 }
 
