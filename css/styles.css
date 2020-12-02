@@ -17,18 +17,18 @@ h1, h3 {
 }
 
 .aboutme__text {
-    padding-top: 1rem;
-    margin: 0 0 2rem 0;
     font-family: sans-serif;
     font-weight: normal;
     font-style: normal;
     max-width: 600px;
     margin: auto;
+    
 }
 
 .aboutme__text p {
     padding: 1rem;
 }
+
 
 
 /* overflow hidden is put here to stop the content in the center class from scrolling off the screen  */
@@ -46,6 +46,10 @@ h1, h3 {
     height: 100%;
     padding: 1rem 0; 
     max-width: 600px;
+}
+
+.aboutme__text p:nth-child(4) {
+    padding-bottom: 4rem;
 }
 
 /* using viewport values so that the image still is positioned nicely on larger screens */
@@ -67,7 +71,6 @@ h1, h3 {
 }
 
 
-
 .home__social {
     position: absolute;
     bottom: 1rem;
@@ -87,7 +90,7 @@ a:visited {
 .aboutme__img img {
     display: block;
     border-radius: 100%;
-    margin: 0 auto;
+    margin: 1rem auto 0.5rem auto;
 
 }
 
@@ -104,6 +107,7 @@ a:visited {
 
 .portfolio__card h3 {
     margin: 0.5rem 0;
+    font-size: 1.5rem;
 }
 
 .portfolio__card a {
@@ -143,4 +147,8 @@ a:visited {
 
 .resume p {
     padding-bottom: 0.5rem;
+}
+
+.page__title {
+    text-align: center;
 }
