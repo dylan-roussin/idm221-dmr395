@@ -16,16 +16,29 @@ h1 {
     font-style: normal;
 }
 
+.aboutme__text {
+    margin: 0 0 2rem 0;
+}
+
+.aboutme__text p {
+    padding: 1rem;
+}
+
+/* overflow hidden is put here to stop the content in the center class from scrolling off the screen  */
+
 .center {
-    padding: 5rem 0; 
+    padding: 5rem 0;
     overflow: hidden;
 }
 
+/* using percentage values so that the image still is positioned nicely on larger screens */
+
 .text__image {
-    display: inline-block;
-    position: relative;
-    top: 6rem;
-    left: 10.5rem;
+    position: absolute;
+    top: 23%;
+    left: 45%;
+    height: 3.75rem;
+    width: 6rem;
 }
 
 .home__maintext {
@@ -38,15 +51,15 @@ h1 {
 
 .logo {
     display: inline-block;
-    height: 100%;
-    width: 100%;
-    margin: 1.5rem 
+    height: 6rem;
+    width: 4rem;
+    margin: 1.5rem;
 }
 
 .home__social {
     position: relative;
     left: 12.5rem;
-    height: 100%;
+    height: 3.687rem;
     width: 100%;
 }
 
@@ -58,3 +71,9 @@ a:visited {
     color: #4919CC;
 }
 
+.aboutme__img img {
+    display: block;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
