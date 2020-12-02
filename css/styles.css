@@ -17,10 +17,13 @@ h1, h3 {
 }
 
 .aboutme__text {
+    padding-top: 1rem;
     margin: 0 0 2rem 0;
-    font-family: 'DINAlternateBold';
+    font-family: sans-serif;
     font-weight: normal;
     font-style: normal;
+    max-width: 600px;
+    margin: auto;
 }
 
 .aboutme__text p {
@@ -42,6 +45,7 @@ h1, h3 {
     width: 75%;
     height: 100%;
     padding: 1rem 0; 
+    max-width: 600px;
 }
 
 /* using viewport values so that the image still is positioned nicely on larger screens */
@@ -50,23 +54,16 @@ h1, h3 {
 .text__image {
     position: absolute;
     top: 3rem;
-    right: 30vw;
+    right: 33vw;
     height: 3.75rem;
     width: 6rem;
     
-}
-
-header {
-    border: 1px solid green;
-    height: 10rem;
-
 }
 
 .logo {
     height: 6rem;
     width: 4rem;
     margin: 1.5rem;
-    border: 1px solid green;
 }
 
 
@@ -90,16 +87,19 @@ a:visited {
 .aboutme__img img {
     display: block;
     border-radius: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+
+}
+
+.uiux__content {
+    padding: 0 2rem;
 }
 
 .portfolio__card {
-    margin: 1rem auto;
+    margin: 2rem auto;
     padding: 1rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    max-width: 20rem;
-
+    max-width: 600px;
 }
 
 .portfolio__card h3 {
@@ -116,4 +116,31 @@ a:visited {
     width: 100%;
     height: 100%;
     border-bottom: 1px solid black;
+}
+
+
+.resume {
+    padding: 1rem;
+    font-family: sans-serif;
+    margin: auto;
+    max-width: 600px;
+}
+
+.resume__list {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+}
+
+.resume h1 {
+    padding-bottom: 1rem;
+    
+}
+
+#xp {
+    padding-bottom: 1rem;
+}
+
+.resume p {
+    padding-bottom: 0.5rem;
 }
