@@ -77,13 +77,12 @@ h1, h3 {
     padding-bottom: 4rem;
 }
 
-/* using viewport values so that the image still is positioned nicely on larger screens */
-
-
 .text__image {
-    position: absolute;
-    top: 3rem;
-    right: 33vw;
+    position: relative;
+    display: block;
+    margin: auto;
+    top: 1.5rem;
+    right: -1.5rem;
     height: 3.75rem;
     width: 6rem;
     
