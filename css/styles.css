@@ -34,6 +34,17 @@
     src: url('../css/fonts/LouisGeorgeCafe.ttf') format('truetype')
 }
 
+.nav__items {
+    padding: 1.25rem 0 0 0;
+}
+
+.navelement {
+    font-size: 1.6rem;
+    font-family: 'DINAlternateBold', 'Roboto', 'Louis George Cafe', sans-serif;
+    padding: 0 1rem;
+    float: left;
+}
+
 
 h1, h3 {
     font-family: 'DINAlternateBold', 'Roboto', 'Louis George Cafe', sans-serif;
@@ -53,7 +64,6 @@ h1, h3 {
 .aboutme__text p {
     padding: 1rem;
 }
-
 
 
 /* overflow hidden is put here to stop the content in the center class from scrolling off the screen  */
@@ -92,6 +102,7 @@ h1, h3 {
     height: 6rem;
     width: 4rem;
     margin: 1.5rem;
+    float: left;
 }
 
 
@@ -180,6 +191,8 @@ a:visited {
     text-align: center;
 }
 
+/* case study */
+
 .casestudy__content {
     margin: auto;
     max-width: 600px;
@@ -218,6 +231,8 @@ a:visited {
 .clear__float {
     clear: both;
 }
+
+/* photo card */
 
 .photo__card {
     margin: 2rem auto;
